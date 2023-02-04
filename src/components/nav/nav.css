@@ -1,0 +1,41 @@
+.header__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  cursor: pointer;
+}
+
+nav a {
+  font-size: 1rem;
+}
+
+nav a:hover {
+  transition: var(--transition);
+}
+
+nav a.active {
+  color: #daa03dff;
+}
+
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    position: relative;
+    top: 20px;
+    /* display: none; */
+  }
+  nav li {
+    width: 100%;
+  }
+}
