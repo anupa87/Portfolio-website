@@ -1,12 +1,7 @@
-.header__container {
+.nav__container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-}
-
-nav {
-  display: flex;
-  align-items: center;
 }
 
 nav ul {
