@@ -16,6 +16,7 @@ import Docker from "../../assets/icons8-docker-40.png";
 import GitHub from "../../assets/icons8-github-40.png";
 import API from "../../assets/icons8-api-48.png";
 import AWS from "../../assets/icons8-amazon-web-services-48.png";
+import MariaDB from "../../assets/icons8-mariadb-48.png";
 
 const Skills = () => {
   return (
@@ -76,6 +77,12 @@ const Skills = () => {
             <div className="skill-card">
               <img src={Drupal} alt="CSS icon" />
               <p>Drupal</p>
+            </div>
+          </li>
+          <li>
+            <div className="skill-card">
+              <img src={MariaDB} alt="CSS icon" />
+              <p>MariaDB</p>
             </div>
           </li>
           <li>
