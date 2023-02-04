@@ -10,13 +10,10 @@
   text-decoration: none;
 }
 :root {
-  --color-bg: white;
-  --color-bg-variant: #598baf;
   --color-primary: #7c47d7;
-  --color-primary-variant: #1c2951;
   --color-white: #fff;
   --color-dark: #1c2951;
-  --color-light: #7285a5;
+  --color-border: #daa03dff;
 
   --transition: all 400ms ease;
 
