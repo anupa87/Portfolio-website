@@ -40,9 +40,8 @@ const Home = () => {
           </div>
           <p>
             <strong>A Full-Stack Web Developer,</strong> passionate about
-            creating interactive applications, open to learning new technologies
-            and eager to tackle new challenges and continuously expand my
-            skillset.
+            creating interactive applications and eager to continually expand
+            skillset by exploring new technologies.
           </p>
           <div className="cta">
             <a href={CV} download className="btn">

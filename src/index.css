@@ -64,17 +64,17 @@ h1 {
 }
 
 section {
-  height: 100vh;
-  padding-top: 2rem;
+  height: 100%;
+  padding-bottom: 3rem;
 }
 
-section > h2,
 section > h5 {
   text-align: center;
   color: var(--color-light);
 }
 
 section > h2 {
+  text-align: center;
   color: var(--color-primary);
   margin-bottom: 2rem;
 }

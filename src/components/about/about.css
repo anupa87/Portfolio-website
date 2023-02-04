@@ -1,0 +1,10 @@
+.about__container {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.about__link {
+  text-decoration: underline;
+  color: var(--color-primary);
+}
