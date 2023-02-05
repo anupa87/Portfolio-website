@@ -3,7 +3,7 @@ import React from "react";
 import "./home.css";
 
 import ME from "../../assets/me.JPG";
-import CV from "../../assets/ANUPA_THAPA_Resume.pdf";
+import CV from "../../assets/ANUPA_THAPA_Resume (1).pdf";
 import { BsLinkedin, BsGithub } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 import { FaArrowCircleDown } from "react-icons/fa";
