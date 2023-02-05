@@ -1,5 +1,4 @@
 import React from "react";
-import Nav from "../nav/Nav";
 
 import "./home.css";
 
@@ -15,44 +14,36 @@ const Home = () => {
       <div className="image__container">
         <img src={ME} alt="About" />
       </div>
+
       <div className="info__container">
-        <Nav />
-        <div>
-          <h1>Anupa Thapa</h1>
-          <div className="socials">
-            <a href="mailto:thapaanupa@gmail.com">
-              <MdEmail />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/anupathapa/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <BsLinkedin />
-            </a>
-            <a
-              href="https://github.com/anupa87"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <BsGithub />
-            </a>
-          </div>
-          <p>
-            <strong>A Full-Stack Web Developer,</strong> passionate about
-            creating interactive applications and eager to continually expand
-            skillset by exploring new technologies.
-          </p>
-          <div className="cta">
-            <a href={CV} download className="btn">
-              Download CV
-            </a>
-            <a href="#contact" className="btn btn-primary">
-              Preview CV
-            </a>
-          </div>
+        <h1>Anupa Thapa</h1>
+        <div className="home-socials">
+          <a href="mailto:thapaanupa@gmail.com">
+            <MdEmail />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/anupathapa/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <BsLinkedin />
+          </a>
+          <a href="https://github.com/anupa87" target="_blank" rel="noreferrer">
+            <BsGithub />
+          </a>
+        </div>
+        <p>
+          <strong>A Full-Stack Web Developer,</strong> passionate about creating
+          interactive applications and eager to continually expand skillset by
+          exploring new technologies.
+        </p>
+        <div className="cta">
+          <a href={CV} download className="btn btn-primary">
+            Resume
+          </a>
         </div>
       </div>
+
       <div className="scroll__down">
         <a href="#contact">
           <FaArrowCircleDown />

@@ -20,7 +20,7 @@ import MariaDB from "../../assets/icons8-mariadb-48.png";
 
 const Skills = () => {
   return (
-    <section>
+    <section id="skills">
       <h2> --- my skills ---</h2>
       <div className="container skills__container">
         <ul className="skills-grid">

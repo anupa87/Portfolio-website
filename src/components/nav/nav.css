@@ -1,18 +1,31 @@
 .nav__container {
+  width: 100%;
+  padding: 0 1rem;
+  background-color: var(--color-primary);
+  transition: 0.1s;
+}
+nav.sticky {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.nav-content {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
-nav ul {
-  display: flex;
-  flex-direction: row;
-  gap: 2rem;
-  cursor: pointer;
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
 }
 
-nav a {
+.nav-links a {
   font-size: 1rem;
+  font-weight: 500;
+  cursor: pointer;
+  margin-right: 30px;
 }
 
 nav a:hover {

@@ -8,9 +8,9 @@ const data = [
     id: 1,
     image: IMG2,
     title: "Speed Game",
-    technologies: " ",
+    technologies: "React, JavaScript, HTML, CSS ",
     about:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "It is a simple game where you have to target a dart to the active board . The speed of the game increases with time. You can choose difficulty levels which changes the number of dart board. Enjoy playing :)",
     github: "https://github.com/anupa87/SpeedGame_React",
     demo: "https://speedgame-at.netlify.app/",
   },
@@ -18,8 +18,9 @@ const data = [
     id: 2,
     image: IMG3,
     title: "Country App",
+    technologies: "React, Redux, Bootstrap, localstorage",
     about:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+      "This app uses REST Countries API and Open Weather API. It can be used to search countries, get some information including weather information and also save your favourite countries.",
     github: "https://github.com/anupa87/Country_App",
     demo: "https://country-app-kappa.vercel.app/",
   },
@@ -27,7 +28,7 @@ const data = [
 
 const Projects = () => {
   return (
-    <section>
+    <section id="projects">
       <h2>-- projects highlight --</h2>
       <div className="container projects__container">
         <div className="projects-grid">

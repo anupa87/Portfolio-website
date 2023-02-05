@@ -23,15 +23,6 @@ const About = () => {
           actions.
           <br />
           <br />
-          Adding to my web development skill, I am also an experienced project
-          manager and scientific researcher.
-          <br />I chose to shift my career to software development in search of
-          new challenges and opportunities.
-          <br />
-          I am enthusiastic about incorporating my previous skillset into the
-          field of software development.
-          <br />
-          <br />
           If you are interested in working together,{" "}
           <a className="about__link" href="#contact">
             let's get in touch!

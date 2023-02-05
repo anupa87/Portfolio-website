@@ -1,0 +1,8 @@
+.footer__container {
+  width: 100%;
+  background-color: var(--color-footer);
+  text-align: center;
+  color: var(--color-white);
+  padding: 1rem;
+  font-size: small;
+}

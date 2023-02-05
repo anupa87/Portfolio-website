@@ -1,12 +1,23 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./nav.css";
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState("#");
+  const [sticky, setSticky] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setSticky(window.scrollY > 200);
+    };
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <nav className="container nav__container">
-      <ul>
-        <li>
+    <nav className={`${sticky ? "sticky" : ""}`}>
+      <div className="nav-content container nav__container">
+        <span className="logo">aT.</span>
+        <div className="nav-links">
           <a
             href="#"
             onClick={() => setActiveNav("#")}
@@ -14,8 +25,7 @@ const Nav = () => {
           >
             Home
           </a>
-        </li>
-        <li>
+
           <a
             href="#about"
             onClick={() => setActiveNav("#about")}
@@ -23,18 +33,7 @@ const Nav = () => {
           >
             About
           </a>
-        </li>
-        <li>
-          {" "}
-          <a
-            href="#projects"
-            onClick={() => setActiveNav("#projects")}
-            className={activeNav === "#projects" ? "active" : ""}
-          >
-            Projects
-          </a>
-        </li>
-        <li>
+
           <a
             href="#skills"
             onClick={() => setActiveNav("#skills")}
@@ -42,8 +41,15 @@ const Nav = () => {
           >
             Skills
           </a>
-        </li>
-        <li>
+
+          <a
+            href="#projects"
+            onClick={() => setActiveNav("#projects")}
+            className={activeNav === "#projects" ? "active" : ""}
+          >
+            Projects
+          </a>
+
           <a
             href="#contact"
             onClick={() => setActiveNav("#contact")}
@@ -51,8 +57,8 @@ const Nav = () => {
           >
             Contact
           </a>
-        </li>
-      </ul>
+        </div>
+      </div>
     </nav>
   );
 };

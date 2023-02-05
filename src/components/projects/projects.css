@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  padding-bottom: 5rem;
 }
 
 .projects-grid {
@@ -27,6 +28,7 @@
 .project-card img {
   width: 100%;
   height: 50%;
+  border-radius: 1rem;
 }
 .project__item-cta {
   display: flex;
