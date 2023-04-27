@@ -9,6 +9,7 @@ nav.sticky {
   top: 0;
   z-index: 100;
 }
+
 .nav-content {
   display: flex;
   flex-direction: row;

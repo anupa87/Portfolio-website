@@ -10,6 +10,7 @@
   text-decoration: none;
 }
 :root {
+  --color-bg: #e1dcdb;
   --color-primary: #7c47d7;
   --color-white: #ffffffff;
   --color-dark: #1c2951;
@@ -33,7 +34,6 @@ html {
 body {
   font-family: "Montserrat", sans-serif;
   background: var(--color-bg);
-  /* color: var(--color-white); */
   line-height: 2;
 }
 /* General Styles */
@@ -63,7 +63,7 @@ h1 {
 
 section {
   height: 100%;
-  padding-bottom: 3rem;
+  padding: 4rem;
 }
 
 section > h5 {
