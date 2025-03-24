@@ -5,7 +5,7 @@ import "./about.css";
 const About = () => {
   return (
     <section id="about">
-      <h2>hi, I am a dream catcher!</h2>
+      <h2>Hi, I'm Anupa — a software developer with a passion for health tech.</h2>
       <div className="about__container">
         <p>
           <quote>
